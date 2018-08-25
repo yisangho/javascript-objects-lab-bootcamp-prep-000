@@ -58,10 +58,12 @@ describe('Objects', function() {
 
   describe('destructivelyDeleteFromObjectByKey(object, key)', function() {
     it('returns object without the delete key/value pair', function() {
+console.log(obj)
       var obj = { prop: 1 }
       var newObj = destructivelyDeleteFromObjectByKey(obj, 'prop');
-
+console.log(obj)
       expect(newObj['prop']).toBe(undefined)
+console.log(obj)      
     })
 
     it('modifies the original object', function() {
