@@ -11,9 +11,12 @@ function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
 }
 
 function destructivelyDeleteFromObjectByKey(obj, key) {
+console.log("=================================")
 console.log(obj)
   obj = delete obj.key
 console.log(obj)
+console.log("=================================")
+
   return obj
 }
 
