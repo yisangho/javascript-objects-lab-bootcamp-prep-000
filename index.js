@@ -11,7 +11,7 @@ function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
 }
 
 function destructivelyDeleteFromObjectByKey(obj, key) {
-  obj = obj[key]
+  delete obj.key
 console.log(obj)
 console.log("=================================")
 
