@@ -63,7 +63,7 @@ console.log("obj"+obj)
       var newObj = destructivelyDeleteFromObjectByKey(obj, 'prop');
 console.log("obj"+obj)
 console.log("newObj"+newObj)
-      //expect(newObj['prop']).toBe(undefined)
+      expect(newObj['prop']).toBe(undefined)
 console.log("obj"+obj)
 console.log("newObj"+newObj)
     })
