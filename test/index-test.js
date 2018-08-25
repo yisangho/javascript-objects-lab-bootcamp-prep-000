@@ -64,8 +64,6 @@ describe('Objects', function() {
     })
 
     it('modifies the original object', function() {
-      console.log("obj"+JSON.stringify(obj))
-      console.log("newObj"+JSON.stringify(newObj))
       var obj = { prop: 1 }
       var newObj = destructivelyDeleteFromObjectByKey(obj, 'prop');
       console.log("obj"+JSON.stringify(obj))
