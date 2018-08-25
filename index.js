@@ -11,10 +11,6 @@ function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
 }
 
 function destructivelyDeleteFromObjectByKey(obj, key) {
-
-console.log(obj)
-console.log("=================================")
-
   return delete obj.key
 }
 
