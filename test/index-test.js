@@ -71,7 +71,7 @@ describe('Objects', function() {
       console.log("obj"+obj)
       console.log("newObj"+newObj)
 
-      //expect(obj['prop']).toBe(undefined)
+      expect(obj['prop']).toBe(undefined)
     })
   })
 
