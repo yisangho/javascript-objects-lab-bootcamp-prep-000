@@ -64,7 +64,7 @@ console.log(obj)
 console.log(obj)
 console.log(newObj)
       expect(newObj['prop']).toBe(undefined)
-console.log(obj)   
+console.log(obj)
 console.log(newObj)   
     })
 
