@@ -15,10 +15,10 @@ function destructivelyDeleteFromObjectByKey(obj, key) {
   return obj
 }
 
-function deleteFromObjectByKey(object, key) {
-  return delete object.key
+function deleteFromObjectByKey(obj, key) {
+  return delete obj.key
 }
 
-function destructivelyDeleteFromObjectByKey(object, key) {
-  return delete object.key
+function destructivelyDeleteFromObjectByKey(obj, key) {
+  return delete obj.key
 }
